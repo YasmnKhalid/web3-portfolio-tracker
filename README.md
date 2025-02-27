@@ -38,28 +38,21 @@ Market Data: CoinGecko API
 
 1️⃣ Clone the Repository
 
-sh
-
-Copy
-
-Edit
+```sh
 
 git clone https://github.com/YasmnKhalid/web3-portfolio-tracker.git
 
 cd web3-portfolio-tracker
-
+```
 2️⃣ Install Dependencies
-sh
-Copy
-Edit
+```sh
 npm install
+```
 
 3️⃣ Set Up Environment Variables
 Create a .env.local file and add:
 
-sh
-Copy
-Edit
+```sh
 NEXT_PUBLIC_INFURA_API_KEY=your_infura_api_key
 
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
@@ -75,18 +68,13 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
 
 NEXT_PUBLIC_COINGECKO_API=https://api.coingecko.com/api/v3
-
+```
 
 4️⃣ Run the Development Server
 
-sh
-
-Copy
-
-Edit
-
+```sh
 npm run dev
-
+```
 
 The app will be available at http://localhost:3000
 
